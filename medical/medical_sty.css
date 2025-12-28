@@ -179,13 +179,15 @@
     position: absolute;
     background: #422d15;           /* Açık yeşilimsi */
     border: 1px solid #8ebd7b;
-    padding: 6px 10px;
+    padding: 3px 5px;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.30);
     font-family: Arial, sans-serif;
     z-index: 99999;
     display: none;
-    color: #eff7d2;            
+    color: #eff7d2;     
+    font-size: 12px;      /* popup genel yazı boyutu */
+    line-height: 1.0;	
     user-select: none
 }
 
