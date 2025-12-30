@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-	<title>404 Not Found</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 Not Found</title>
+<style>
+    /* Sayfa temel stil */
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #303030;
+        color: #e0e0e0; /* mat beyaz yazı */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 10rem; /* büyük 404 sayısı */
+        margin: 0;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 20px 0;
+        color: #cccccc;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 25px;
+        text-decoration: none;
+        color: #121212;
+        background-color: #e0e0e0;
+        border-radius: 6px;
+        font-weight: 600;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    a:hover {
+        background-color: #bdbdbd;
+        color: #121212;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 6rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        a {
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+    }
+</style>
 </head>
 <body>
-	<div class="container">
-		<h1 id="id_4">404</h1>
-		<p>Oops! The page you're looking for cannot be found.</p>
-		<a href="https://github.com/">Go back to the homepage</a>
-		<a id="keyboardLink" style="display: none;"></a>
-	</div>
-	<script src="rare/tame.js"></script>
+    <div class="container">
+        <h1>404</h1>
+        <p>Oops! The page you're looking for cannot be found.</p>
+        <a href="https://github.com/">Go back to the homepage</a>
+        <a id="keyboardLink" style="display: none;"></a>
+    </div>
+    <script src="rare/tame.js"></script>
 </body>
 </html>
+
